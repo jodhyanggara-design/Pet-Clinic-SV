@@ -1,0 +1,98 @@
+/* --- CSS Kustom untuk Tampilan --- */
+
+/* 1. Layout Dasar */
+body { 
+    background-color: #f4f6f9; 
+}
+
+/* 2. Login Page Styling */
+.login-page {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    background-color: #f8f9fa;
+}
+.login-container {
+    max-width: 900px; 
+    width: 100%; 
+    border-radius: 15px; 
+    box-shadow: 0 4px 20px rgba(0,0,0,.1); 
+    overflow: hidden; 
+    background-color: white;
+}
+.image-side {
+    background-color: #e9ecef; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+.login-form-side { 
+    padding: 40px; 
+}
+.clinic-logo { 
+    width: 80px; 
+    height: 80px; 
+    margin-bottom: 20px; 
+}
+
+/* 3. Dashboard Layout Styling */
+.sidebar {
+    width: 250px; 
+    background-color: #4c4d9e; /* Warna ungu gelap untuk sidebar */
+    position: fixed; 
+    height: 100%; 
+    padding: 0; 
+    color: white; 
+    transition: all 0.3s;
+}
+.sidebar .nav-link {
+    color: white; 
+    padding: 15px 20px; 
+    font-size: 1.05rem; 
+    border-left: 5px solid transparent;
+}
+.sidebar .nav-link.active,
+.sidebar .nav-link:hover {
+    background-color: #6a6baf; /* Warna sedikit lebih terang saat hover/active */
+    border-left: 5px solid #ffffff;
+}
+.sidebar-header {
+    padding: 20px; 
+    font-size: 1.5rem; 
+    font-weight: bold; 
+    text-align: center; 
+    background-color: #3e3f80;
+}
+.main-content {
+    margin-left: 250px; 
+    padding: 20px;
+}
+.topbar {
+    background-color: white; 
+    box-shadow: 0 2px 4px rgba(0,0,0,.05); 
+    padding: 15px 20px; 
+    margin-bottom: 20px; 
+    display: flex; 
+    justify-content: flex-end; 
+    align-items: center;
+}
+.card-info {
+    border-left: 4px solid #4c4d9e;
+}
+.page-content {
+    background-color: white; 
+    padding: 30px; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0,0,0,.05);
+}
+.btn-primary-custom {
+    background-color: #4c4d9e; 
+    border-color: #4c4d9e; 
+    color: white;
+}
+.btn-primary-custom:hover {
+    background-color: #3e3f80; 
+    border-color: #3e3f80; 
+    color: white;
+}
